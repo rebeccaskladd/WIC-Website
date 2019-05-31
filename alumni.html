@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MSU Women in Computing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="assets/images/logos/icon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800,900" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="assets/js/wic.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</head>
+
+<body onload="alumniInitial()">
+
+    <!-- Navigation Bar -->
+
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top nav-menu" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-header">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="nav-wic" href="./">
+                    <img class="nav-logo" src="assets/images/logos/new_icon.png" alt="WIC logo" height="300"
+                        width="300">
+                </a>
+                <a class="nav-wic" href="./">MSU Women In Computing</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="main-header">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">About Us <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="eboard.html">E-Board</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html">Our Sponsors</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">Get Involved
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="outreach.html">Outreach</a>
+                            </li>
+                            <li>
+                                <a href="http://www.spartangwc.org" target="_blank">Girls Who Code</a>
+                            </li>
+                            <li>
+                                <a href="http://technovation.cse.msu.edu" target="_blank">Technovation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="alumni.html">Alumni</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-last" href="join.html">Join</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alumni -->
+
+    <div class="alumni">
+        <div class="container">
+            <div class="alumni-header">
+                <h2>Alumni</h2>
+                <p class="subheading alumni-descr">MSUWIC is creating a support network of current and
+                    past members with the goal of sharing knowledge and advice on diversity in
+                    computing-related fields. Are you interested in connecting with us? Consider
+                    joining the MSUWIC community!</p>
+                <a href="https://www.facebook.com/groups/msuwicfriends/" target="_blank"
+                    class="btn btn-spartan wic-btn-sm">Join the
+                    Community</a>
+            </div>
+
+            <!-- Alumni Sidebar -->
+
+            <div class="col-md-3 year-links">
+                <h4 class="years-title">Years</h4>
+                <hr class="below-years">
+                <ul class="nav">
+                    <li id="1718" class="alumni-year" onclick="selectAlumni('1718')">2017-2018</li>
+                    <hr>
+                    <li id="1617" class="alumni-year" onclick="selectAlumni('1617')">2016-2017</li>
+                    <hr>
+                    <li id="1516" class="alumni-year" onclick="selectAlumni('1516')">2015-2016</li>
+                    <hr>
+                    <li id="1415" class="alumni-year" onclick="selectAlumni('1415')">2014-2015</li>
+                    <hr>
+                    <li id="1314" class="alumni-year" onclick="selectAlumni('1314')">2013-2014</li>
+                    <hr>
+                    <li id="1213" class="alumni-year" onclick="selectAlumni('1213')">2012-2013</li>
+                    <hr>
+                </ul>
+            </div>
+
+            <!-- 2017-2018 Content -->
+
+            <div class="col-md-9 alumni-years">
+                <div class="alumni-content" id="1718-content">
+                    <div class="alumni-eboard">
+                        <h3 class="alumni-eboard-header">Women in Computing E-Board</h3>
+                        <h3 class="alumni-eboard-year">2017-2018</h3>
+                        <p class="alumni-position"><strong>President:</strong> Lauren Allswede</p>
+                        <p class="alumni-position"><strong>Vice President:</strong> Sarah Fillwock</p>
+                        <p class="alumni-position"><strong>Treasurer:</strong> Nayana Kodur</p>
+                        <p class="alumni-position"><strong>Secretary:</strong> Erin O'Hara</p>
+                        <p class="alumni-position"><strong>Outreach Chair:</strong> Harshita Das</p>
+                        <p class="alumni-position"><strong>Corporate Relations Chair:</strong> Camille Emig</p>
+                        <p class="alumni-position"><strong>Webmaster:</strong> Savanna Pinkoski</p>
+                        <p class="alumni-position"><strong>Lean In Chair:</strong> Meenu Sundararaju</p>
+                        <p class="alumni-position"><strong>Social Chair:</strong> Sasha Morford</p>
+                        <p class="alumni-position"><strong>Outreach Coordinator:</strong> Sarah Johanknecht</p>
+                    </div>
+                    <div class="pictures">
+                        <img class="alumni-pic" src="assets/images/2017-2018/ghc2017.jpg">
+                        <img class="alumni-pic" src="assets/images/2017-2018/ghc2017_2.JPG">
+                        <img class="alumni-pic" src="assets/images/2017-2018/gwc2018.jpeg">
+                        <img class="alumni-pic" src="assets/images/2017-2018/ilooklikeanengineer2018_3.jpg">
+                        <img class="alumni-pic" src="assets/images/2017-2018/cidermill.jpg">
+                    </div>
+                </div>
+
+                <!-- 2016-2017 Content -->
+
+                <div class="alumni-content" id="1617-content">
+                    <div class="alumni-eboard">
+                        <h3 class="alumni-eboard-header">Women in Computing E-Board</h3>
+                        <h3 class="alumni-eboard-year">2016-2017</h3>
+                        <p class="alumni-position"><strong>President:</strong> Paige Henderson</p>
+                        <p class="alumni-position"><strong>Vice President:</strong> Courtney Irwin</p>
+                        <p class="alumni-position"><strong>Treasurer:</strong> Jilian Rose Co</p>
+                        <p class="alumni-position"><strong>Secretary:</strong> Sarah Fillwock</p>
+                        <p class="alumni-position"><strong>Outreach Chair:</strong> Halle Dymowski</p>
+                        <p class="alumni-position"><strong>Corporate Relations Chair:</strong> Lauren Allswede</p>
+                        <p class="alumni-position"><strong>Webmaster:</strong> Nico Vergara</p>
+                        <p class="alumni-position"><strong>Lean In Chair:</strong> Nayana Kodur</p>
+                        <p class="alumni-position"><strong>Social Chair:</strong> Savanna Pinkoski</p>
+                        <p class="alumni-position"><strong>Outreach Coordinator:</strong> Harshita Das</p>
+                        <p class="alumni-position"><strong>Community Relations Chair:</strong> Meenu Sundararaju</p>
+                    </div>
+                    <div class="pictures">
+                        <img class="alumni-pic" src="assets/images/2016-2017/dec16_1.jpg">
+                        <img class="alumni-pic" src="assets/images/2016-2017/ghc2016.jpg">
+                        <img class="alumni-pic" src="assets/images/2016-2017/micwic2017.jpg">
+                        <img class="alumni-pic" src="assets/images/2016-2017/eboard1617.jpg">
+                    </div>
+                </div>
+
+                <!-- 2015-2016 Content -->
+
+                <div class="alumni-content" id="1516-content">
+                    <div class="alumni-eboard">
+                        <h3 class="alumni-eboard-header">Women in Computing E-Board</h3>
+                        <h3 class="alumni-eboard-year">2015-2016</h3>
+                        <p class="alumni-position"><strong>President:</strong> Neha Gupta</p>
+                        <p class="alumni-position"><strong>Vice President:</strong> Meghan Huynh</p>
+                        <p class="alumni-position"><strong>Treasurer:</strong> Courtney Irwin</p>
+                        <p class="alumni-position"><strong>Secretary:</strong> Lauren Allswede</p>
+                        <p class="alumni-position"><strong>Outreach Chair:</strong> Halle Dymowski</p>
+                        <p class="alumni-position"><strong>Corporate Relations Chair:</strong> Lauren Kelley</p>
+                        <p class="alumni-position"><strong>Webmaster:</strong> Nicole Lawrence</p>
+                        <p class="alumni-position"><strong>Community Relations Chair:</strong> Sarah Fillwock</p>
+                    </div>
+                    <div class="pictures">
+                        <img class="alumni-pic" src="assets/images/2015-2016/fall15_3.jpg">
+                        <img class="alumni-pic" src="assets/images/2015-2016/spring16_2.JPG">
+                        <img class="alumni-pic" src="assets/images/2015-2016/welook1516.jpg">
+                        <img class="alumni-pic" src="assets/images/2015-2016/panda1516.jpg">
+                        <img class="alumni-pic" src="assets/images/2015-2016/outreach1516.jpg">
+                        <img class="alumni-pic" src="assets/images/2015-2016/leanin1516.jpg">
+                        <img class="alumni-pic" src="assets/images/2015-2016/eboard1516.jpg">
+                        <img class="alumni-pic" src="assets/images/2015-2016/dinner201516.jpg">
+                        <img class="alumni-pic" src="assets/images/2015-2016/fall15_1.jpg">
+                    </div>
+                </div>
+
+                <!-- 2014-2015 Content -->
+
+                <div class="alumni-content" id="1415-content">
+                    <div class="alumni-eboard">
+                        <h3 class="alumni-eboard-header">Women in Computing E-Board</h3>
+                        <h3 class="alumni-eboard-year">2014-2015</h3>
+                        <p class="alumni-position"><strong>President:</strong> Erin Hoffman</p>
+                        <p class="alumni-position"><strong>Vice President:</strong> Caitlin McDonald</p>
+                        <p class="alumni-position"><strong>Treasurer:</strong> Neha Gupta</p>
+                        <p class="alumni-position"><strong>Secretary:</strong> Abigael Onchiri</p>
+                        <p class="alumni-position"><strong>Outreach Chair:</strong> Elizebeth Florian</p>
+                        <p class="alumni-position"><strong>Corporate Relations Chair:</strong> Ashlee DeLine</p>
+                        <p class="alumni-position"><strong>Community Relations Chair:</strong> Lauren Kelley</p>
+                    </div>
+                    <div class="pictures">
+                        <img class="alumni-pic" src="assets/images/2014-2015/april15_1.jpg">
+                        <img class="alumni-pic" src="assets/images/2014-2015/april15_2.JPG">
+                        <img class="alumni-pic" src="assets/images/2014-2015/may15_1.jpg">
+                        <img class="alumni-pic" src="assets/images/2014-2015/micwic142015.jpg">
+                    </div>
+                </div>
+
+                <!-- 2013-2014 Content -->
+
+                <div class="alumni-content" id="1314-content">
+                    <div class="alumni-eboard">
+                        <h3 class="alumni-eboard-header">Women in Computing E-Board</h3>
+                        <h3 class="alumni-eboard-year">2013-2014</h3>
+                        <p class="alumni-position"><strong>Co-President:</strong> Danielle Guir</p>
+                        <p class="alumni-position"><strong>Co-President:</strong> Taylor Jones</p>
+                        <p class="alumni-position"><strong>Vice President:</strong> Kaitlin Davis</p>
+                        <p class="alumni-position"><strong>Treasurer:</strong> Neha Gupta</p>
+                        <p class="alumni-position"><strong>Secretary:</strong> Ashlee DeLine</p>
+                        <p class="alumni-position"><strong>Corporate Relations Chair:</strong> Erin Hoffman</p>
+                        <p class="alumni-position"><strong>Webmaster:</strong> Caitlin McDonald</p>
+                        <p class="alumni-position"><strong>Community Relations Chair:</strong> Eunbong Yang, Jennifer
+                            Manning, Nicole Lawrence
+                    </div>
+                    <div class="pictures">
+                        <img class="alumni-pic" src="assets/images/2013-2014/fall13_1.jpg">
+                        <img class="alumni-pic" src="assets/images/2013-2014/1314.jpg">
+                    </div>
+                </div>
+
+                <!-- 2012-2013 Content -->
+
+                <div class="alumni-content" id="1213-content">
+                    <div class="alumni-eboard">
+                        <h3 class="alumni-eboard-header">Women in Computing E-Board</h3>
+                        <h3 class="alumni-eboard-year">2012-2013</h3>
+                        <p class="alumni-position"><strong>President:</strong> Mairin Chesney</p>
+                        <p class="alumni-position"><strong>Vice President:</strong> Chelsea Carr</p>
+                        <p class="alumni-position"><strong>Treasurer:</strong> Erin Hoffman</p>
+                        <p class="alumni-position"><strong>Secretary:</strong> Megan Chorazyczewski</p>
+                        <p class="alumni-position"><strong>Social Chair:</strong> Kaitlyn Davis</p>
+                    </div>
+                    <div class="pictures">
+                        <img class="alumni-pic" src="assets/images/2012-2013/ghc1213.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-container container">
+            <a class="footer-social" href="https://www.facebook.com/MSUWomenInComputing/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="footer-social" href="mailto:msuwic@cse.msu.edu">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <p>Michigan State University Women in Computing</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

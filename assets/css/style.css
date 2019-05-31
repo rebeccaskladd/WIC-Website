@@ -1,0 +1,1035 @@
+/* General */
+
+body {
+    background-color: white;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2.9em;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+.subheading {
+  color: #777;
+  font-size: 1.145em;
+  font-style: italic;
+}
+
+/* Buttons */
+
+.btn-spartan {
+    background-color: #18453b;
+    color: white;
+}
+
+.btn-spartan:hover {
+    background-color: #939393;
+}
+
+.wic-btn {
+    font-size: 1.3em;
+    margin: 0.3em 0.55em;
+    padding: 0.55em;
+}
+
+.wic-btn-sm {
+    font-size: 1.145em;
+    padding: 0.45em;
+}
+
+/* Navigation */
+
+.nav-menu {
+    background-color: #18453b;
+    box-shadow: 0 0.15em 0.15em rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar
+
+.navbar-header {
+    padding-top: 0.8em;
+}
+
+.nav-wic {
+    color: white;
+    font-size: 1.18em;
+    text-transform: uppercase;
+    vertical-align: super;
+}
+
+.nav-logo {
+    height: 1.8em;
+    margin: 0.15em 0.4em;
+    width: 1.9em;
+    vertical-align: bottom;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.18em;
+    margin: 0.25em 0.3em;
+    text-transform: uppercase;
+}
+
+.nav-link:hover, .nav-wic:hover {
+    color: #939393;
+}
+
+.nav-link-last {
+    margin-right: 1.5em;
+}
+
+/* Home page - image/title */
+
+.home {
+    background: url("../images/other/msu_beaumont_dark.jpg") center center;
+    background-size: cover;
+    height: 42.8em;
+    padding-top: 6.5em;
+}
+
+.section {
+    text-align: center;
+}
+
+.msuwic-title {
+    margin: 6.8em 0 4.3em 0;
+}
+
+.msuwic-title img {
+    width: 3.7em;
+    vertical-align: bottom;
+}
+
+.msuwic-title h1 {
+    color: white;
+    margin: 0;
+}
+
+.title-michiganstate {
+    display: inline;
+    font-size: 3.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title-university {
+    display: inline;
+    font-size: 3.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title-wic {
+     font-size: 4.65em;
+}
+
+.button {
+    background: #18453b;
+    border-radius: 0.3em;
+    color: white;
+    padding: 0.9em;
+}
+
+.subscribe {
+    font-size: 1.35em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.subscribe:hover {
+    background-color: #939393;
+}
+
+.social-media {
+    margin-top: 3.7em;
+}
+
+.facebook, .email {
+    color: white;
+    margin: 0 0.8em;
+}
+
+.facebook i, .email i {
+    font-size: 3em;
+}
+
+.facebook:hover, .email:hover {
+    color: #939393;
+}
+
+/* Home page - about us */
+
+.about {
+    color: #18453b;
+    padding: 5em 16em 2em;
+}
+
+.about p {
+    text-align: justify;
+}
+
+.meeting-bit {
+    display: inline-block;
+}
+
+.meeting-bit i {
+    font-size: 2em;
+    color: #18453b;
+    margin: 0 0.3em 0 0.6em;
+    vertical-align: middle;
+}
+
+.meeting-text {
+    font-size: 1.4em;
+}
+
+/* Home page - photo slideshow */
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer;
+}
+
+.w3-badge {
+    height: 0.75em;
+    padding: 0;
+    width: 0.75em;
+}
+
+.w3-content {
+    max-width: 57em;
+}
+
+.w3-container {
+    width: 100%;
+}
+
+.mySlides {
+    width: 100%;
+}
+
+/* Home page - our activities */
+
+.index-sections {
+     margin-top: 0;
+}
+
+.activities {
+    color: #18453b;
+    padding: 3em 0 1em 0;
+}
+
+.activities .container {
+    text-align: center;
+}
+
+.activities-header {
+    margin-bottom: 0.8em;
+}
+
+.activities-img {
+    width: 28em;
+}
+
+.activity-title {
+    margin-top: 0.6em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.page-link {
+    color: #18453b;
+}
+
+.page-link:hover {
+    color: #888;
+}
+
+.activity-descr {
+    margin-bottom: 1.6em;
+}
+
+/* Home page - affiliated organizations */
+
+.affiliated-orgs {
+    padding: 3em 0 3em 0;
+    width: 100%;
+}
+
+.affiliated-orgs {
+    color: #18453b;
+}
+
+.affiliated-orgs .affiliated-logos {
+    align-items: center;
+    justify-content: center;
+}
+
+.affiliated-orgs .affiliated-logos img {
+    margin: 0 3em;
+    width: 12em;
+}
+
+/* Eboard page - eboard */
+
+.eboard {
+    color: #18453b;
+    width: 100%;
+    padding: 8em 9em 3em;
+}
+
+.eboard-header {
+    margin-bottom: 3.5em;
+}
+
+.eboard-year {
+    color: #333;
+    margin-top: 0.3em;
+}
+
+.eboard-descr {
+    margin: 0 8em;
+}
+
+.position {
+    cursor: pointer;
+}
+
+.eboard-position-links {
+    display: inline;
+}
+
+.positions-title {
+    font-weight: 700;
+    font-size: 1.85em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.below-positions {
+    border-top: 0.15em solid;
+    margin-left: 0;
+    max-width: 5.3em;
+}
+
+.eboard-position-links li {
+    color: black;
+    font-size: 1.07em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.eboard-positions {
+    display: inline;
+}
+
+.profile {
+    display: none;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 0.7em;
+    width: 12em;
+}
+
+.eboard-name {
+    color: black;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.eboard-major {
+    color: #888;
+    font-size: 1.05em;
+}
+
+.eboard-contact {
+    color: #888;
+    margin: 0 0.3em;
+}
+
+.eboard-contact:hover {
+    color: #18453b;
+}
+
+.eboard-info {
+    text-align: left;
+}
+
+.eboard-position {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.eboard-bio {
+    color: #888;
+}
+
+/* Eboard page - Extra Mile Award */
+
+.extra-mile {
+    background-color: #18453b;
+    color: white;
+    padding: 1em 9em 3em;
+    width: 100%;
+}
+
+.extra-mile h2 {
+    margin-top: 1.5em;
+}
+
+.extra-mile .accordion {
+    background-color: #18453b;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+.accordion {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+.accordion:hover {
+    color: #939393;
+}
+
+#emla-arrow, #sponsor-arrow {
+    border-top: 0.3em dashed;
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    margin-left: 0.4em;
+}
+
+#panel-accord {
+    display: none;
+}
+
+.extra-mile .winners p {
+    margin: .375em 0;
+}
+
+/* Sponsor page - Our Sponsors */
+
+.sponsors {
+    color: #18453b;
+    padding: 8em 9em 1em;
+}
+
+.sponsor-header {
+    margin-bottom: 0.35em;
+}
+
+.sponsor-year {
+    font-size: 1.85em;
+    margin-bottom: 1.25em;
+}
+
+.sponsor-level {
+    border-bottom: 0.07em solid #F34A53;
+    color: #939393;
+    margin-top: 0.5em;
+    font-size: 2em;
+}
+
+.sponsor-section {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+}
+
+.sponsor-logos {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+     margin: 0 1.5em 3em 1.5em;
+}
+
+#gm {
+    width: 12em;
+}
+
+#vertafore {
+    width: 22em;
+}
+
+#asmsu {
+    width: 13em;
+}
+
+#target {
+    width: 12em;
+}
+
+#crowe {
+    width: 22em;
+}
+
+#dow {
+    width: 18em;
+}
+
+#bluemedora {
+    margin-top: 2em;
+    width: 17em;
+}
+
+#unionpacific {
+    margin-top: 2em;
+    width: 11em;
+}
+
+/* Sponsor page - Sponsor Thank You Letter */
+
+.sponsor-thank-you {
+    color: white;
+    background-color: #18453b;
+    padding: 0.5em 9em 0;
+}
+
+.sponsor-accord {
+    background-color: #18453b;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding: 1.4em 0;
+}
+
+.thankyou-title {
+    font-size: 1.95em;
+}
+
+.sponsor-end {
+    padding-bottom: 2.4em;
+}
+
+/* Sponsor page - Become a Sponsor */
+
+.become-sponsor {
+    background-color: white;
+    color: #18453b;
+    padding: 2.9em 9em;
+}
+
+.sponsor-interested {
+    font-size: 2.2em;
+}
+
+.become-sponsor-descr {
+    margin: 0 9em;
+}
+
+.contact-mail {
+    color: #F34A53;
+    font-size: 1.1em;
+}
+
+.contact-mail:hover {
+    color: #939393;
+}
+
+/* Outreach */
+
+.outreach {
+    color: #18453b;
+    padding: 8em 7.3em 3em;
+}
+
+.outreach {
+    width: 100%;
+}
+
+.outreach-section {
+    margin: 1.8em 0;
+}
+
+.outreach-subheading {
+    margin: 0 7.2em 1.4em;
+}
+
+.outreach-descr {
+    text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.outreach-title {
+    text-transform: uppercase;
+    color: #939393;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.outreach-pic img {
+    width: 27em;
+}
+
+/* News page - news */
+
+.news {
+    color: #18453b;
+    padding: 8em 0.5em 1em;
+}
+
+.card {
+    display: inline-block;
+    margin: 1em 0.7em;
+    text-align: left;
+    width: 24em;
+}
+
+.news-card {
+    margin: 1em 0.7em;
+    width: 39rem;
+}
+
+.card-title {
+    font-size: 1.6em
+}
+
+.card-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+
+.card-text {
+    font-size: 1.07em;
+}
+
+.read-posts {
+    font-size: 1.28em;
+    margin-top: 1.1em;
+    padding: 0.6em 1.1em;
+    margin-bottom: 2.2em;
+}
+
+/* News page - list of posts */
+
+.news-all {
+    color: #18453b;
+    padding: 8em 9em 1em;
+}
+
+.news-posts {
+    text-align: left;
+    margin: 3em 8em 6em;
+}
+
+.news-author {
+    color: #18453b;
+    margin-bottom: 0;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.news-date {
+    color: #939393;
+    margin-bottom: 0;
+    font-size: 1.15em;
+}
+
+.news-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.75em;
+    color: #18453b;
+}
+
+.post {
+    margin-bottom: 1.15em;
+}
+
+/* News page - news post */
+
+.news-post {
+    color: #18453b;
+    padding: 8em 22em 1em;
+    text-align: left;
+}
+
+.news-post img {
+    width: 46.5em;
+}
+
+.news-img {
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
+}
+
+.news-text {
+    margin-bottom: 1.2em;
+}
+
+.news-img-sub {
+    margin-bottom: 1.5em;
+    text-align: center;
+    margin-top: 0.6em;
+    color: #939393;
+    font-size: 1em;
+}
+
+.back-page {
+    color: #939393;
+    font-size: 1em;
+}
+
+.back-page:hover {
+    color: #18453b;
+}
+
+.icon-back {
+    margin-right: 0.4em;
+}
+
+/* News page - WIC BITS */
+
+.wicbits {
+    color: #18453b;
+    padding: 0 9em 4em;
+}
+
+.subscribe-btn {
+    cursor: pointer;
+}
+
+.wic-bits-title {
+    margin-top: 1em;
+}
+
+.wic-bits-info {
+    color: #888;
+    margin: 0.7em 8em;
+}
+
+/* Past Wic Bits */
+
+.past-wicbits {
+    color: #18453b;
+    padding: 8em 9em 4em;
+}
+
+.years {
+    margin-top: 3.2em;
+}
+
+.wicbits-year {
+    color: #18453b;
+    display: block;
+    margin: 1.1em 0;
+    font-size: 1.7em;
+}
+
+.wicbits-year:hover {
+    font-weight: bold;
+}
+
+/* Individual WICBITS page */
+
+.wicbits-page {
+    color: #18453b;
+    padding: 8em 9em 4em;
+}
+
+.wicbits-file {
+    color: #18453b;
+    display: block;
+    font-size: 1.5em;
+    margin: 0.1em 0;
+}
+
+.wicbits-temp-space {
+    padding-bottom: 5em;
+}
+
+.wicbits-month {
+    font-weight: bold;
+    border-bottom: 0.08em solid #F34A53;
+    color: #939393;
+}
+
+.wicbits-file:hover {
+    font-weight: bold;
+}
+
+.wicbits-section {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+/* Events page - Events */
+
+.events {
+    background-color: white;
+    color: #18453b;
+}
+
+.events {
+    width: 100%;
+    padding: 8em 0 3em 0;
+}
+
+.upcoming-events {
+    margin-bottom: 0.7em; 
+}
+
+.calendar-note {
+    font-size: 1.45em;
+    margin-bottom: 0.15em;
+    margin-top: 0.6em;
+}
+
+.down-arrow {
+    color: #18453b;
+}
+
+.down-arrow:hover {
+    color: #939393;
+}
+
+/* Events page - Calendar */
+
+.calendar {
+    padding: 5em 9em 3em;
+    width: 100%;
+    background-color: #18453b;
+    color: white;
+}
+
+.calendar-title {
+    margin-bottom: 0.7em;
+}
+
+iframe {
+    margin: auto;
+}
+
+.google-calendar {
+    border-width: 0;
+}
+
+/* Alumni */
+
+.alumni {
+    width: 100%;
+    padding: 8em 9em 3em;
+    color: #18453b;
+}
+
+.alumni-year {
+    color: black;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.alumni-descr {
+    margin: 0 8em 0.6em;
+}
+
+.alumni-header {
+    margin-bottom: 3.5em;
+}
+
+.year-links {
+    display: inline;
+}
+
+.year-links li {
+    color: black;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.years-title {
+    font-weight: 700;
+    font-size: 1.9em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.below-years {
+    border-top: 0.15em solid;
+    margin-left: 0;
+    max-width: 5.3em;
+}
+
+.alumni-eboard-header {
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+.alumni-eboard-year {
+    color: black;
+    font-size: 1.3em;
+    margin-top: 0;
+}
+
+.alumni-position {
+    margin-bottom: 0.1em;
+}
+
+.alumni-content {
+    display: none;
+}
+
+.alumni-pic {
+    width: 23em;
+    margin: 0.7em;
+}
+
+.pictures {
+    margin-top: 1em;
+}
+
+/* Join */
+
+.join-us {
+    color: #18453b;
+    width: 100%;
+    padding: 8em 9em 3em;
+}
+
+.join-title {
+    margin-bottom: 0.6em;
+}
+
+.join-row {
+    margin-bottom: 6.5em;
+}
+
+.connect-subheading {
+    color: #888;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.join-info {
+    margin: 0.7em 1.2em;
+}
+
+.social-join {
+    background-color: #333;
+    border-radius: 100%;
+    color: white;
+    display: inline-block;
+    font-size: 1.4em;
+    height: 2.05em;
+    width: 2.05em;
+    line-height: 2.05em;
+    margin: 0 0.2em;
+    outline: 0;
+}
+
+.social-join:hover {
+    background-color: #18453b;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    height: 12em;
+    text-align: center;
+}
+
+.footer-container {
+    padding-top: 2.9em;
+}
+
+.footer-social {
+    background-color: white;
+    border-radius: 100%;
+    color: #333;
+    display: inline-block;
+    font-size: 1.5em;
+    line-height: 2em;
+    width: 2em;
+}
+
+.footer-social:hover {
+    background-color: #18453b;
+    color: white;
+}
+
+footer a {
+    margin: 0 0.3em;
+}
+
+footer p {
+    margin-top: 1.8em;
+}
+
+/* Media queries - smaller devices */
+
+@media(max-width: 768px) {
+    
+    /* Navigation */
+
+    .navbar .container {
+        text-align: initial;
+    }
+    .nav-logo {
+        margin-left: 1em;
+        margin-top: 0.3em;
+    }
+    .navbar-toggle {
+        margin-top: 3px;
+        margin-bottom: 13px;
+    }
+    .nav-link-last {
+        margin-right: 0;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link {
+        margin: 0.25em 0;
+    }
+    .dropdown-menu {
+        position: initial;
+        float: none;
+        border: none;
+        text-align: center;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}

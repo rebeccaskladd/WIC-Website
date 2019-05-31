@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MSU Women in Computing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="assets/images/logos/icon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800,900" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="assets/js/wic.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</head>
+
+<body onload="eboardInitial()">
+
+    <!-- Navigation Bar -->
+
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top nav-menu" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-header">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="nav-wic" href="./">
+                    <img class="nav-logo" src="assets/images/logos/new_icon.png" alt="WIC logo" height="300"
+                        width="300">
+                </a>
+                <a class="nav-wic" href="./">MSU Women In Computing</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="main-header">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">About Us <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="eboard.html">E-Board</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html">Our Sponsors</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button">Get Involved
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="outreach.html">Outreach</a>
+                            </li>
+                            <li>
+                                <a href="http://www.spartangwc.org" target="_blank">Girls Who Code</a>
+                            </li>
+                            <li>
+                                <a href="http://technovation.cse.msu.edu" target="_blank">Technovation</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="alumni.html">Alumni</a>
+                    </li>
+                    <li>
+                        <a class="nav-link nav-link-last" href="join.html">Join</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Eboard -->
+
+    <div id="eboard" class="eboard">
+        <div class="container">
+            <div class="eboard-header">
+                <h2 class="eboard-title">Women in Computing E-Board</h2>
+                <h3 class="eboard-year">2018-2019</h3>
+                <h6 class="subheading eboard-descr">This year's E-Board is very excited to
+                    provide a support network for women in computing fields at
+                    Michigan State, and we hope you will join us in our mission to
+                    empower and encourage young women to discover a love for computing.</h6>
+                <h6 class="subheading">Please contact us if you have any questions!</h6>
+                <a href="mailto:msuwic@cse.msu.edu" class="btn btn-spartan wic-btn-sm">Contact our advisors</a>
+            </div>
+
+            <!-- Position Sidebar -->
+
+            <div class="col-md-3 eboard-position-links">
+                <h4 class="positions-title">Positions</h4>
+                <hr class="below-positions">
+                <ul class="nav">
+                    <li id="president" class="position" onclick="selectEboard('president')">President</li>
+                    <hr>
+                    <li id="vice-president" class="position" onclick="selectEboard('vice-president')">Vice President
+                    </li>
+                    <hr>
+                    <li id="treasurer" class="position" onclick="selectEboard('treasurer')">Treasurer</li>
+                    <hr>
+                    <li id="secretary" class="position" onclick="selectEboard('secretary')">Secretary</li>
+                    <hr>
+                    <li id="outreach-chair" class="position" onclick="selectEboard('outreach-chair')">Outreach Chair
+                    </li>
+                    <hr>
+                    <li id="corporate-relations" class="position" onclick="selectEboard('corporate-relations')">
+                        Corporate Relations</li>
+                    <hr>
+                    <li id="webmaster" class="position" onclick="selectEboard('webmaster')">Webmaster</li>
+                    <hr>
+                    <li id="lean-in-chair" class="position" onclick="selectEboard('lean-in-chair')">Lean In Chair</li>
+                    <hr>
+                    <li id="social-chair" class="position" onclick="selectEboard('social-chair')">Social Chair</li>
+                    <hr>
+                    <li id="community-relations" class="position" onclick="selectEboard('community-relations')">
+                        Community Relations</li>
+                    <hr>
+                </ul>
+            </div>
+
+            <!-- Eboard Position Info -->
+
+            <!-- President -->
+
+            <div class="col-md-9 eboard-positions">
+                <div class="profile" id="president-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/harshita.JPG">
+                        <p class="eboard-name">Harshita Das</p>
+                        <p class="eboard-major">Computer Science '19</p>
+                        <a class="eboard-contact" href="mailto:wic-pres@cse.msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.linkedin.com/in/harshita-das" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">President</p>
+                        <div class="eboard-bio">
+                            <p>Hi guys! My name is Harshita Das, and I am a Computer Science
+                                major with minors in Environmental and Sustainability Studies and
+                                Women's and Gender Studies. As President, I would like to continue
+                                our principle of creating an inclusive environment for our members
+                                and providing them with professional, educational, and personal
+                                opportunities to grow and learn during their college lives. Prior
+                                to being President, I was Outreach Chair 2017-18 and Outreach
+                                Coordinator 2016-17, and apart from WIC, I am Treasurer Phi Sigma
+                                Pi – Beta Sigma and Service Chair for Tau Beta Pi.</p>
+                            <p>Before college, I had no coding experience, but I always wanted to try it. So I took an
+                                intro to coding class on campus, and because I enjoyed it so much,
+                                I decided to major in it. I enjoy Computer Science because I like
+                                problem solving, which I believe is a big part of our major since our
+                                classes (and careers!) revolve around creating solutions for real world problems.
+                                Aspects of CSE that interest me are data analysis, algorithm engineering, and
+                                metrics visualizations. Some of my favorite classes ever are HST 150 (World History
+                                After 1500), CSE 431 (Algorithm Engineering), and ANP 330 (Race and Ethnicity, and
+                                Nation). I am glad I came to MSU for my degree because there are so many opportunities
+                                on campus to grow and develop both personally and professionally, and there
+                                are always people there to help you if you need it. Hope to see you at our next meeting!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vice President -->
+
+                <div class="profile" id="vice-president-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/sasha.JPG">
+                        <p class="eboard-name">Sasha Morford</p>
+                        <p class="eboard-major">Computer Science '19</p>
+                        <a class="eboard-contact" href="mailto:wic-vp@cse.msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.linkedin.com/in/sasha-morford/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Vice President</p>
+                        <div class="eboard-bio">
+                            <p>Hi friends! I'm Sasha, and I'm super excited to be this year's WIC Vice President!
+                                I have been involved with WIC since the Kick-Off Meeting my freshman year and love to
+                                see new faces at our meetings. I have previously served as our Social Events Chair and
+                                enjoyed spending my free time volunteering at WIC outreach events.</p>
+                            <p>In my role as Vice President, I am responsible for coordinating attendance for over 20
+                                women to attend the Grace Hopper Celebration for Women in Computing. This conference is
+                                a great opportunity for students to hear from influential women in technology, network
+                                with companies, and learn about new technologies. I also coordinate MSU WIC's attendance
+                                at MICWIC, a spring conference for women from Michigan to learn more about technology.
+                                I'm very happy to be able to help out our President whenever she needs an extra hand
+                                this year!</p>
+                            <p>I think technology is amazing, and I am so excited to be in a major where the career
+                                opportunities are seemingly endless. I've interned in both Michigan and New York,
+                                working on web applications and big data. This year, I am focusing on learning more
+                                about mobile apps and keeping up with the ever-changing technology field.</p>
+                            <p>Please feel free to send me an email if you have any questions about WIC!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treasurer -->
+
+                <div class="profile" id="treasurer-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/camille.JPG">
+                        <p class="eboard-name">Camille Emig</p>
+                        <p class="eboard-major">Computer Science '20</p>
+                        <a class="eboard-contact" href="mailto:wic-treasurer@cse.msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.linkedin.com/in/camilleemig" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.github.com/camilleemig" target="_blank">
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://camilleemig.github.io" target="_blank">
+                            <i class="fas fa-link fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Treasurer</p>
+                        <div class="eboard-bio">
+                            <p>Camille is a Junior Computer Science major at MSU.
+                                She is also involved in the cycling group and is a
+                                TA for Intro to Programming I - CSE231. She has previously
+                                interned at Snap and Blue Medora. Camille is very interested
+                                in pursuing front-end development, UX, and mobile development.
+                                She is getting her cognate in Psychology and enjoys spending
+                                her free time reading, biking, and baking.</p>
+                            <p>As WIC's Treasurer, Camille handles the finances for Women in Computing
+                                and organizes the expenses related to club meetings. She works to
+                                arrange funding for WIC and supports the Vice President in planning for
+                                the Grace Hopper Conference by organizing payments and reimbursements for
+                                the trip.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secretary -->
+
+                <div class="profile" id="secretary-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/allison.JPG">
+                        <p class="eboard-name">Allison Mutka</p>
+                        <p class="eboard-major">Computer Science '20</p>
+                        <a class="eboard-contact" href="mailto:mutkaall@msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.linkedin.com/in/allison-mutka-056a71126/ "
+                            target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.facebook.com/people/Allison-Mutka/100008374508128"
+                            target="_blank">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Secretary</p>
+                        <div class="eboard-bio">
+                            <p>Allison is a junior, who is looking forward to her role
+                                as Secretary on the Women In Computing Executive Board this year.
+                                In this role, she hopes to assist the group in its mission to foster
+                                an environment for women in technology-related fields to connect.
+                                She has been a mentor for IgniteCS, a program that encourages local
+                                high school girls to learn to code and a Python Tutor for the Engineering and
+                                Science Success Academy for incoming MSU freshman. In addition, she has
+                                been a ULA for both CSE 260 (Discrete Structures) and CSE 231
+                                (Introduction to Programming I in Python). In her free time,
+                                she likes to travel, play with her dog Shadow, and attend MSU football games.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Outreach Chair -->
+
+                <div class="profile" id="outreach-chair-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/linda.JPG">
+                        <p class="eboard-name">Linda Duong</p>
+                        <p class="eboard-major">Computer Science '19</p>
+                        <a class="eboard-contact" href="mailto:wic-outreach@cse.msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.linkedin.com/in/linda-duong-4b7155149/"
+                            target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Outreach Chair</p>
+                        <div class="eboard-bio">
+                            <p>Linda chose her major of Computer Science because
+                                she likes the challenges of problem solving. She is
+                                interested in working with data to analyze and test
+                                if the expected scenario or outcome is correct. She
+                                has been involved in many WIC outreach programs such as
+                                IgniteCS and Girls Who Code. This year, she has
+                                the eboard position of Outreach Chair. While on eboard,
+                                she would like to make all the activities and events a fun
+                                one and have a great turn out. Also, she is involved in
+                                Society of Women Engineers (SWE) as Fundraising
+                                Chair and helps SWE organize fundraising events and activities
+                                to obtain funds. While at MSU, meeting so many great friends
+                                and new friends has been an amazing experience. They make MSU
+                                a great one.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corporate Relations -->
+
+                <div class="profile" id="corporate-relations-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/anjali.JPG">
+                        <p class="eboard-name">Anjali Munasinghe</p>
+                        <p class="eboard-major">Computer Science '19</p>
+                        <a class="eboard-contact" href="mailto:wic-corporate@cse.msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="mailto:amunasinghe16@gmail.com">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Corporate Relations Chair</p>
+                        <div class="eboard-bio">
+                            <p>This is Anjali's third year as a Computer Science student at MSU.
+                                Here at MSU, Anjali is involved in research at a human-computer
+                                interaction lab group and is a teaching assistant for MSU's Intro to
+                                Programming. Anjali's technical interests include UI design,
+                                human-computer interaction, and front-end development, and in her
+                                free time she loves to draw, paint, and play video games.</p>
+                            <p>As WIC's Corporate Relations Chair, Anjali organizes tech talks
+                                where we bring in companies to introduce us to the kinds of technology
+                                they use, explain important workflow processes, or host workshops to teach
+                                us something new! Be sure to reach out to Anjali if you think you might be
+                                interested in hosting a tech talk through MSU WIC, or if you have any questions
+                                about upcoming tech talks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Webmaster -->
+
+                <div class="profile" id="webmaster-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/rebecca.JPG">
+                        <p class="eboard-name">Rebecca Skladd</p>
+                        <p class="eboard-major">Computer Science '19</p>
+                        <a class="eboard-contact" href="mailto:skladdre@msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://linkedin.com/in/rebeccaskladd" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Webmaster</p>
+                        <div class="eboard-bio">
+                            <p>Rebecca is a senior at MSU this year and is graduating with a degree in
+                                Computer Science in May 2019. She joined WIC in January 2017, and although she joined
+                                later in college, she is very grateful to have found a wonderful and supportive group of
+                                women who share her interests and have helped her grow personally and professionally
+                                while at MSU. She participates in various outreach activities with WIC throughout the
+                                year and had the opportunity to mentor young girls in computing through IgniteCS and
+                                Girls Who Code over the past two years. This year, she will be a mentor for the Women in
+                                Engineering Connect program and a ULA for CSE 335 (Software Design). This summer, she
+                                had the opportunity to intern at Spectrum Health in Grand Rapids on their web/mobile app
+                                development team and is excited to continue to pursue a career in software development.
+                            </p>
+                            <p>As WIC Webmaster this year, she decided to redesign the entire MSUWIC website and
+                                is proud to present all the new features and sections that you are viewing on the
+                                website today. Throughout the year, she will be responsible for maintaining and updating
+                                the website as needed as well as keeping WIC members informed about upcoming events and
+                                activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lean In Chair -->
+
+                <div class="profile" id="lean-in-chair-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/sarah.JPG">
+                        <p class="eboard-name">Sarah Johanknecht</p>
+                        <p class="eboard-major">Computer Science '20</p>
+                        <a class="eboard-contact" href="mailto:johankn1@msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                        <a class="eboard-contact" href="https://www.linkedin.com/in/sarahjohanknecht/" target="_blank">
+                            <i class="fab fa-linkedin-in fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Lean In Chair</p>
+                        <div class="eboard-bio">
+                            <p>Sarah is excited to be creating a support network of strong females within
+                                computing-related majors at MSU this year as Lean In Chair. She is also a mentor
+                                for the Women in Engineering Connect program and helps facilitate MSU's Girls Who
+                                Code program. She loves being involved within these communities because they are
+                                dedicated to encouraging and supporting women to pursue careers in technology.
+                                In addition, Sarah is a ULA for CSE 331 (Algorithms & Data Structures), an
+                                active member of Phi Sigma Pi National Honors Fraternity, and recruits incoming
+                                Honors College students as part of the leadership team for H-STAR. In her free time,
+                                you will probably find her cheering on the MSU football and basketball teams. Sarah
+                                hopes to pursue a career that combines her interests in software development and
+                                cognitive science while working to achieve gender equality within the technology
+                                industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Chair -->
+
+                <div class="profile" id="social-chair-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/maddie.JPG">
+                        <p class="eboard-name">Maddie Jones</p>
+                        <p class="eboard-major">Computer Science '20</p>
+                        <a class="eboard-contact" href="mailto:jones366@msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Social Chair</p>
+                        <div class="eboard-bio">
+                            <p>Maddie plans to pursue a career in security after
+                                she graduates from MSU. She chose computer science
+                                because she enjoys problem solving and being challenged.
+                                She was previously a mentor for Spartan Girls Who Code
+                                and finds that she really enjoys helping others learn coding
+                                skills. Some of her favorite experiences at MSU have been
+                                going to sporting events and attending craft nights and
+                                movie nights with her friends. Along with being a member
+                                of WIC, she also works part time and is an ambassador
+                                for Women in Engineering. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Community Relations -->
+
+                <div class="profile" id="community-relations-content">
+                    <div class="col-sm-4 eboard-photo">
+                        <img src="assets/images/eboard/hannah.JPG">
+                        <p class="eboard-name">Hannah Striebel</p>
+                        <p class="eboard-major">Computer Science '20</p>
+                        <a class="eboard-contact" href="mailto:striebe5@msu.edu">
+                            <i class="fas fa-envelope fa-lg"></i>
+                        </a>
+                    </div>
+                    <div class="col-sm-8 eboard-info">
+                        <p class="eboard-position">Community Relations Chair</p>
+                        <div class="eboard-bio">
+                            <p>Hannah is a second year student majoring in Computer Science.
+                                She has been programming since her sophomore year of high school
+                                and loves that coding gives her the power to solve complex problems
+                                in a direct and logical manner. She is thankful for the fun and
+                                supportive community of WIC and especially that it gave her
+                                the opportunity to become a Girls Who Code mentor. She is excited
+                                to be serving as Community Relations Chair this year and that it'll
+                                allow her to meet new people and make new friends through WIC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WIC Extra Mile Leadership Award -->
+
+    <div id="extra-mile" class="extra-mile">
+        <div class="section">
+            <h2>WIC Extra Mile Leadership Award</h2>
+            <p>The WIC Extra Mile Leadership Award is given each year to a member of the WIC Executive Board whose
+                outstanding leadership in the last year has contributed towards improving the club.
+                The WIC President and WIC Vice President nominate an awardee, who must be approved by the WIC Advisors.
+                The WIC President, WIC Vice President, previous EMLA recipients, and students
+                who could graduate in the current academic year are ineligible. The purpose of the award is to recognize
+                outstanding leaders and encourage them to run for other leadership positions
+                in the coming years.</p>
+            <button id="winnersaccord" class="accordion">Past Winners<span id="emla-arrow"
+                    class="caret caret-up"></span></button>
+            <div id="panel-accord" class="panel">
+                <div class="winners">
+                    <p>2010 - Meghan McNeil</p>
+                    <p>2011 - Cassi Miller & Kathryn Bonnen</p>
+                    <p>2012 - Mairin Chesney</p>
+                    <p>2013 - Chelsea Carr & Kaitlin Davis</p>
+                    <p>2014 - Ashlee Deline</p>
+                    <p>2015 - Neha Gupta</p>
+                    <p>2016 - Courtney Irwin</p>
+                    <p>2017 - Lauren Allswede</p>
+                    <p>2018 - Harshita Das</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-container">
+            <a class="footer-social" href="https://www.facebook.com/MSUWomenInComputing/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="footer-social" href="mailto:msuwic@cse.msu.edu">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <p>Michigan State University Women in Computing</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/eboard.js"></script>
+
+</body>
+
+</html>
